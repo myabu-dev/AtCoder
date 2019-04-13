@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuu/Documents/AtCoder/ABC/124/B.cpp
+iostream
+-
+string
+-
+algorithm
+-
+vector
+-
+map
+-
+utility
+-
+
