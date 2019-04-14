@@ -14,18 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd19f2e2-b6e6-4cb1-b50e-277b84b0f485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/124.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../054/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../054/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bd19f2e2-b6e6-4cb1-b50e-277b84b0f485" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/D.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="403">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -204,16 +193,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555154750094</updated>
-      <workItem from="1555154751260" duration="6222000" />
+      <workItem from="1555154751260" duration="6742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6222000" />
+    <option name="totallyTimeSpent" value="6742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="725" y="798" width="1477" height="975" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947736" />
@@ -227,7 +215,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295583" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -239,32 +227,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/D.cpp</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/D.cpp</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/D.cpp</url>
-          <line>47</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/D.cpp</url>
-          <line>44</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -302,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/D.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="403">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
