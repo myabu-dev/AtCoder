@@ -121,6 +121,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="B-2">
+				<Option output="/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/B-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 B-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="B-2/fast">
+				<Option output="/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/B-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 B-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="C">
 				<Option output="/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuu/Documents/AtCoder/ABC/124/cmake-build-debug"/>
@@ -208,6 +250,9 @@
 		</Build>
 		<Unit filename="/Users/yuu/Documents/AtCoder/ABC/124/A.cpp">
 			<Option target="A"/>
+		</Unit>
+		<Unit filename="/Users/yuu/Documents/AtCoder/ABC/124/B-2.cpp">
+			<Option target="B-2"/>
 		</Unit>
 		<Unit filename="/Users/yuu/Documents/AtCoder/ABC/124/B.cpp">
 			<Option target="B"/>
