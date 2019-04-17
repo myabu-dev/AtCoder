@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yuu/Documents/AtCoder/square869120Contenst/6
+CMAKE_SOURCE_DIR = /Users/yuu/Documents/AtCoder/Educational_DP_Contest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yuu/Documents/AtCoder/square869120Contenst/6/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuu/Documents/AtCoder/square869120Contenst/6/cmake-build-debug/CMakeFiles /Users/yuu/Documents/AtCoder/square869120Contenst/6/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/CMakeFiles /Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuu/Documents/AtCoder/square869120Contenst/6/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named A-1
+
+# Build rule for target.
+A-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 A-1
+.PHONY : A-1
+
+# fast build rule for target.
+A-1/fast:
+	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/build
+.PHONY : A-1/fast
+
+#=============================================================================
 # Target rules for targets named A
 
 # Build rule for target.
@@ -123,18 +136,32 @@ A/fast:
 	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/build
 .PHONY : A/fast
 
-#=============================================================================
-# Target rules for targets named C
+A-1.o: A-1.cpp.o
 
-# Build rule for target.
-C : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 C
-.PHONY : C
+.PHONY : A-1.o
 
-# fast build rule for target.
-C/fast:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
-.PHONY : C/fast
+# target to build an object file
+A-1.cpp.o:
+	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/A-1.cpp.o
+.PHONY : A-1.cpp.o
+
+A-1.i: A-1.cpp.i
+
+.PHONY : A-1.i
+
+# target to preprocess a source file
+A-1.cpp.i:
+	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/A-1.cpp.i
+.PHONY : A-1.cpp.i
+
+A-1.s: A-1.cpp.s
+
+.PHONY : A-1.s
+
+# target to generate assembly for a file
+A-1.cpp.s:
+	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/A-1.cpp.s
+.PHONY : A-1.cpp.s
 
 A.o: A.cpp.o
 
@@ -163,33 +190,6 @@ A.cpp.s:
 	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/A.cpp.s
 .PHONY : A.cpp.s
 
-C.o: C.cpp.o
-
-.PHONY : C.o
-
-# target to build an object file
-C.cpp.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.o
-.PHONY : C.cpp.o
-
-C.i: C.cpp.i
-
-.PHONY : C.i
-
-# target to preprocess a source file
-C.cpp.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.i
-.PHONY : C.cpp.i
-
-C.s: C.cpp.s
-
-.PHONY : C.s
-
-# target to generate assembly for a file
-C.cpp.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.s
-.PHONY : C.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... A-1"
 	@echo "... A"
-	@echo "... C"
+	@echo "... A-1.o"
+	@echo "... A-1.i"
+	@echo "... A-1.s"
 	@echo "... A.o"
 	@echo "... A.i"
 	@echo "... A.s"
-	@echo "... C.o"
-	@echo "... C.i"
-	@echo "... C.s"
 .PHONY : help
 
 
