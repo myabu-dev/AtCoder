@@ -50,7 +50,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/A.dir/DependInfo.cmake"
+  "CMakeFiles/C.dir/DependInfo.cmake"
   "CMakeFiles/B.dir/DependInfo.cmake"
   "CMakeFiles/A-1.dir/DependInfo.cmake"
-  "CMakeFiles/A.dir/DependInfo.cmake"
   )
