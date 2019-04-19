@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named E
+
+# Build rule for target.
+E : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 E
+.PHONY : E
+
+# fast build rule for target.
+E/fast:
+	$(MAKE) -f CMakeFiles/E.dir/build.make CMakeFiles/E.dir/build
+.PHONY : E/fast
+
+#=============================================================================
 # Target rules for targets named A
 
 # Build rule for target.
@@ -310,6 +323,33 @@ D.cpp.s:
 	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/D.cpp.s
 .PHONY : D.cpp.s
 
+E.o: E.cpp.o
+
+.PHONY : E.o
+
+# target to build an object file
+E.cpp.o:
+	$(MAKE) -f CMakeFiles/E.dir/build.make CMakeFiles/E.dir/E.cpp.o
+.PHONY : E.cpp.o
+
+E.i: E.cpp.i
+
+.PHONY : E.i
+
+# target to preprocess a source file
+E.cpp.i:
+	$(MAKE) -f CMakeFiles/E.dir/build.make CMakeFiles/E.dir/E.cpp.i
+.PHONY : E.cpp.i
+
+E.s: E.cpp.s
+
+.PHONY : E.s
+
+# target to generate assembly for a file
+E.cpp.s:
+	$(MAKE) -f CMakeFiles/E.dir/build.make CMakeFiles/E.dir/E.cpp.s
+.PHONY : E.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -318,6 +358,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... E"
 	@echo "... A"
 	@echo "... D"
 	@echo "... C"
@@ -338,6 +379,9 @@ help:
 	@echo "... D.o"
 	@echo "... D.i"
 	@echo "... D.s"
+	@echo "... E.o"
+	@echo "... E.i"
+	@echo "... E.s"
 .PHONY : help
 
 

@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="E">
+				<Option output="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 E"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="E/fast">
+				<Option output="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 E/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="A">
 				<Option output="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug/A" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-build-debug"/>
@@ -262,6 +304,9 @@
 		</Unit>
 		<Unit filename="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/D.cpp">
 			<Option target="D"/>
+		</Unit>
+		<Unit filename="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/E.cpp">
+			<Option target="E"/>
 		</Unit>
 		<Unit filename="/Users/yuu/Documents/AtCoder/Educational_DP_Contest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
