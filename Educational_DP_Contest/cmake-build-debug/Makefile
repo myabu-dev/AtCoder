@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/yuu/Documents/AtCoder/Educational_DP_Contest/cmake-bui
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,17 +124,30 @@ E/fast:
 .PHONY : E/fast
 
 #=============================================================================
-# Target rules for targets named A
+# Target rules for targets named D-2
 
 # Build rule for target.
-A : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 A
-.PHONY : A
+D-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 D-2
+.PHONY : D-2
 
 # fast build rule for target.
-A/fast:
-	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/build
-.PHONY : A/fast
+D-2/fast:
+	$(MAKE) -f CMakeFiles/D-2.dir/build.make CMakeFiles/D-2.dir/build
+.PHONY : D-2/fast
+
+#=============================================================================
+# Target rules for targets named F
+
+# Build rule for target.
+F : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 F
+.PHONY : F
+
+# fast build rule for target.
+F/fast:
+	$(MAKE) -f CMakeFiles/F.dir/build.make CMakeFiles/F.dir/build
+.PHONY : F/fast
 
 #=============================================================================
 # Target rules for targets named D
@@ -149,152 +162,32 @@ D/fast:
 	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/build
 .PHONY : D/fast
 
-#=============================================================================
-# Target rules for targets named C
+D-2.o: D-2.cpp.o
 
-# Build rule for target.
-C : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 C
-.PHONY : C
-
-# fast build rule for target.
-C/fast:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
-.PHONY : C/fast
-
-#=============================================================================
-# Target rules for targets named B
-
-# Build rule for target.
-B : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 B
-.PHONY : B
-
-# fast build rule for target.
-B/fast:
-	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/build
-.PHONY : B/fast
-
-#=============================================================================
-# Target rules for targets named A-1
-
-# Build rule for target.
-A-1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 A-1
-.PHONY : A-1
-
-# fast build rule for target.
-A-1/fast:
-	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/build
-.PHONY : A-1/fast
-
-A-1.o: A-1.cpp.o
-
-.PHONY : A-1.o
+.PHONY : D-2.o
 
 # target to build an object file
-A-1.cpp.o:
-	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/A-1.cpp.o
-.PHONY : A-1.cpp.o
+D-2.cpp.o:
+	$(MAKE) -f CMakeFiles/D-2.dir/build.make CMakeFiles/D-2.dir/D-2.cpp.o
+.PHONY : D-2.cpp.o
 
-A-1.i: A-1.cpp.i
+D-2.i: D-2.cpp.i
 
-.PHONY : A-1.i
-
-# target to preprocess a source file
-A-1.cpp.i:
-	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/A-1.cpp.i
-.PHONY : A-1.cpp.i
-
-A-1.s: A-1.cpp.s
-
-.PHONY : A-1.s
-
-# target to generate assembly for a file
-A-1.cpp.s:
-	$(MAKE) -f CMakeFiles/A-1.dir/build.make CMakeFiles/A-1.dir/A-1.cpp.s
-.PHONY : A-1.cpp.s
-
-A.o: A.cpp.o
-
-.PHONY : A.o
-
-# target to build an object file
-A.cpp.o:
-	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/A.cpp.o
-.PHONY : A.cpp.o
-
-A.i: A.cpp.i
-
-.PHONY : A.i
+.PHONY : D-2.i
 
 # target to preprocess a source file
-A.cpp.i:
-	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/A.cpp.i
-.PHONY : A.cpp.i
+D-2.cpp.i:
+	$(MAKE) -f CMakeFiles/D-2.dir/build.make CMakeFiles/D-2.dir/D-2.cpp.i
+.PHONY : D-2.cpp.i
 
-A.s: A.cpp.s
+D-2.s: D-2.cpp.s
 
-.PHONY : A.s
-
-# target to generate assembly for a file
-A.cpp.s:
-	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/A.cpp.s
-.PHONY : A.cpp.s
-
-B.o: B.cpp.o
-
-.PHONY : B.o
-
-# target to build an object file
-B.cpp.o:
-	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/B.cpp.o
-.PHONY : B.cpp.o
-
-B.i: B.cpp.i
-
-.PHONY : B.i
-
-# target to preprocess a source file
-B.cpp.i:
-	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/B.cpp.i
-.PHONY : B.cpp.i
-
-B.s: B.cpp.s
-
-.PHONY : B.s
+.PHONY : D-2.s
 
 # target to generate assembly for a file
-B.cpp.s:
-	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/B.cpp.s
-.PHONY : B.cpp.s
-
-C.o: C.cpp.o
-
-.PHONY : C.o
-
-# target to build an object file
-C.cpp.o:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.o
-.PHONY : C.cpp.o
-
-C.i: C.cpp.i
-
-.PHONY : C.i
-
-# target to preprocess a source file
-C.cpp.i:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.i
-.PHONY : C.cpp.i
-
-C.s: C.cpp.s
-
-.PHONY : C.s
-
-# target to generate assembly for a file
-C.cpp.s:
-	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.s
-.PHONY : C.cpp.s
+D-2.cpp.s:
+	$(MAKE) -f CMakeFiles/D-2.dir/build.make CMakeFiles/D-2.dir/D-2.cpp.s
+.PHONY : D-2.cpp.s
 
 D.o: D.cpp.o
 
@@ -350,38 +243,57 @@ E.cpp.s:
 	$(MAKE) -f CMakeFiles/E.dir/build.make CMakeFiles/E.dir/E.cpp.s
 .PHONY : E.cpp.s
 
+F.o: F.cpp.o
+
+.PHONY : F.o
+
+# target to build an object file
+F.cpp.o:
+	$(MAKE) -f CMakeFiles/F.dir/build.make CMakeFiles/F.dir/F.cpp.o
+.PHONY : F.cpp.o
+
+F.i: F.cpp.i
+
+.PHONY : F.i
+
+# target to preprocess a source file
+F.cpp.i:
+	$(MAKE) -f CMakeFiles/F.dir/build.make CMakeFiles/F.dir/F.cpp.i
+.PHONY : F.cpp.i
+
+F.s: F.cpp.s
+
+.PHONY : F.s
+
+# target to generate assembly for a file
+F.cpp.s:
+	$(MAKE) -f CMakeFiles/F.dir/build.make CMakeFiles/F.dir/F.cpp.s
+.PHONY : F.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... E"
-	@echo "... A"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... D-2"
+	@echo "... F"
 	@echo "... D"
-	@echo "... C"
-	@echo "... B"
-	@echo "... A-1"
-	@echo "... A-1.o"
-	@echo "... A-1.i"
-	@echo "... A-1.s"
-	@echo "... A.o"
-	@echo "... A.i"
-	@echo "... A.s"
-	@echo "... B.o"
-	@echo "... B.i"
-	@echo "... B.s"
-	@echo "... C.o"
-	@echo "... C.i"
-	@echo "... C.s"
+	@echo "... D-2.o"
+	@echo "... D-2.i"
+	@echo "... D-2.s"
 	@echo "... D.o"
 	@echo "... D.i"
 	@echo "... D.s"
 	@echo "... E.o"
 	@echo "... E.i"
 	@echo "... E.s"
+	@echo "... F.o"
+	@echo "... F.i"
+	@echo "... F.s"
 .PHONY : help
 
 
