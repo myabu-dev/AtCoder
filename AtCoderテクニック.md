@@ -60,3 +60,43 @@ str > str2
 memset(araay, -1, sizeof(array));
 ```
 
+構造体をソート
+
+operatorを定義する
+
+```
+struct Info
+{
+    std::string name;
+    int age;
+
+    Info(std::string inputted_name, int inputted_age)
+    {
+        name = inputted_name;
+        age = inputted_age;
+    }
+    bool operator<(const Info &another) const
+    {
+        return age < another.age;//年齢を比較
+    };
+    //2つのconstを付けないとコンパイルエラーになるので注意!!
+};
+```
+
+比較関数を作成する
+
+```
+bool cmp(const Info &a, const Info &b)
+{
+    return a.age < b.age;
+}
+```
+
+ラムダ式を使う
+
+```
+std::sort(info.begin(), info.end(), [](const Info &a, const Info &b) {
+		return a.age < b.age;
+});//比較関数をラムダ式で作る
+```
+
