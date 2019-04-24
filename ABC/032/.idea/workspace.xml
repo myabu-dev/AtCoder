@@ -12,64 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d102faf9-0490-4be6-8e27-85c54bd555ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/032.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../121/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tenka1Proguramig/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Tenka1Proguramig/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../121/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../121/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/A.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../121/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../121/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AtCoderテクニック.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AtCoderテクニック.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tenka1Proguramig/C.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A-1.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/A.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tenka1Proguramig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tenka1Proguramig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tenka1Proguramig/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tenka1Proguramig/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="552" />
+    <option name="y" value="643" />
     <option name="width" value="974" />
     <option name="height" value="978" />
   </component>
@@ -181,15 +128,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556010728630</updated>
-      <workItem from="1556010729818" duration="5478000" />
+      <workItem from="1556010729818" duration="5641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5478000" />
+    <option name="totallyTimeSpent" value="5641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="974" height="978" extended-state="0" />
+    <frame x="552" y="643" width="974" height="978" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />

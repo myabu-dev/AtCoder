@@ -32,18 +32,31 @@ int main(void){
         cin>>test[i].a>>test[i].b;
     }
 
-    sort(test.begin(), test.end(), [](const data& pre, const data& next){
+    sort(test.begin(), test.begin()+N, [](const data& pre, const data& next){
         return pre.a < next.a;
     });
 
-    int ans = 0;
+//    for (int i = 0; i < N; ++i) {
+//        cout<<test[i].a<<"b is "<<test[i].b<<endl;
+//    }
+
+    long long ans = 0;
     for (int i = 0; i < N; ++i){
-        if(N<=0){
+
+        while(test[i].b > 0){
+            if(M==0){
+                break;
+            }
+            M--;
+            test[i].b --;
+            ans += test[i].a;
+        }
+        if(M==0){
             break;
         }
-        ans += test[i]
     }
 
+    cout<<ans<<endl;
 
     return 0;
 }
