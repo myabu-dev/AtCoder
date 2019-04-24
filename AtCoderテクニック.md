@@ -100,3 +100,9 @@ std::sort(info.begin(), info.end(), [](const Info &a, const Info &b) {
 });//比較関数をラムダ式で作る
 ```
 
+vectorを一部のみソートする
+
+```
+sort(vec.begin(), vec.begin()+N);
+```
+
