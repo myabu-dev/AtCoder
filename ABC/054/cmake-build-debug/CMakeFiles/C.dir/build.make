@@ -60,15 +60,15 @@ include CMakeFiles/C.dir/flags.make
 CMakeFiles/C.dir/C.cpp.o: CMakeFiles/C.dir/flags.make
 CMakeFiles/C.dir/C.cpp.o: ../C.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuu/Documents/AtCoder/ABC/054/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C.dir/C.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C.dir/C.cpp.o -c /Users/yuu/Documents/AtCoder/ABC/054/C.cpp
+	/usr/local/Cellar/gcc/8.2.0/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C.dir/C.cpp.o -c /Users/yuu/Documents/AtCoder/ABC/054/C.cpp
 
 CMakeFiles/C.dir/C.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C.dir/C.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuu/Documents/AtCoder/ABC/054/C.cpp > CMakeFiles/C.dir/C.cpp.i
+	/usr/local/Cellar/gcc/8.2.0/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuu/Documents/AtCoder/ABC/054/C.cpp > CMakeFiles/C.dir/C.cpp.i
 
 CMakeFiles/C.dir/C.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C.dir/C.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuu/Documents/AtCoder/ABC/054/C.cpp -o CMakeFiles/C.dir/C.cpp.s
+	/usr/local/Cellar/gcc/8.2.0/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuu/Documents/AtCoder/ABC/054/C.cpp -o CMakeFiles/C.dir/C.cpp.s
 
 # Object files for target C
 C_OBJECTS = \
