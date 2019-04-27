@@ -15,10 +15,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2842da4-91b6-4e10-a160-7b3e689d7dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tenka1Proguramig/C.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/032/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/032/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tenka1Proguramig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tenka1Proguramig/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tenka1Proguramig/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tenka1Proguramig/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ABC/125/A_1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ABC/125/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ABC/125/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ABC/125/D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/054/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/054/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/A.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/D.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" selection-start-line="31" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="305">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -87,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/E.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -102,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/F.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
+            <state relative-caret-position="828">
               <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="55" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
@@ -231,17 +259,18 @@
       <workItem from="1555839076825" duration="1913000" />
       <workItem from="1555937986630" duration="18000" />
       <workItem from="1556011878739" duration="1218000" />
+      <workItem from="1556368429739" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18735000" />
+    <option name="totallyTimeSpent" value="19315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="366" y="694" width="1680" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2002442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2026862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,10 +341,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D.cpp">
+    <entry file="file://$PROJECT_DIR$/F.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" selection-start-line="31" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="828">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="55" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -333,20 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/F.cpp">
+    <entry file="file://$PROJECT_DIR$/D.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="55" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="305">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>

@@ -123,6 +123,58 @@ A/fast:
 	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/build
 .PHONY : A/fast
 
+#=============================================================================
+# Target rules for targets named A_1
+
+# Build rule for target.
+A_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 A_1
+.PHONY : A_1
+
+# fast build rule for target.
+A_1/fast:
+	$(MAKE) -f CMakeFiles/A_1.dir/build.make CMakeFiles/A_1.dir/build
+.PHONY : A_1/fast
+
+#=============================================================================
+# Target rules for targets named D
+
+# Build rule for target.
+D : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 D
+.PHONY : D
+
+# fast build rule for target.
+D/fast:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/build
+.PHONY : D/fast
+
+#=============================================================================
+# Target rules for targets named C
+
+# Build rule for target.
+C : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 C
+.PHONY : C
+
+# fast build rule for target.
+C/fast:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/build
+.PHONY : C/fast
+
+#=============================================================================
+# Target rules for targets named B
+
+# Build rule for target.
+B : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 B
+.PHONY : B
+
+# fast build rule for target.
+B/fast:
+	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/build
+.PHONY : B/fast
+
 A.o: A.cpp.o
 
 .PHONY : A.o
@@ -150,6 +202,114 @@ A.cpp.s:
 	$(MAKE) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/A.cpp.s
 .PHONY : A.cpp.s
 
+A_1.o: A_1.cpp.o
+
+.PHONY : A_1.o
+
+# target to build an object file
+A_1.cpp.o:
+	$(MAKE) -f CMakeFiles/A_1.dir/build.make CMakeFiles/A_1.dir/A_1.cpp.o
+.PHONY : A_1.cpp.o
+
+A_1.i: A_1.cpp.i
+
+.PHONY : A_1.i
+
+# target to preprocess a source file
+A_1.cpp.i:
+	$(MAKE) -f CMakeFiles/A_1.dir/build.make CMakeFiles/A_1.dir/A_1.cpp.i
+.PHONY : A_1.cpp.i
+
+A_1.s: A_1.cpp.s
+
+.PHONY : A_1.s
+
+# target to generate assembly for a file
+A_1.cpp.s:
+	$(MAKE) -f CMakeFiles/A_1.dir/build.make CMakeFiles/A_1.dir/A_1.cpp.s
+.PHONY : A_1.cpp.s
+
+B.o: B.cpp.o
+
+.PHONY : B.o
+
+# target to build an object file
+B.cpp.o:
+	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/B.cpp.o
+.PHONY : B.cpp.o
+
+B.i: B.cpp.i
+
+.PHONY : B.i
+
+# target to preprocess a source file
+B.cpp.i:
+	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/B.cpp.i
+.PHONY : B.cpp.i
+
+B.s: B.cpp.s
+
+.PHONY : B.s
+
+# target to generate assembly for a file
+B.cpp.s:
+	$(MAKE) -f CMakeFiles/B.dir/build.make CMakeFiles/B.dir/B.cpp.s
+.PHONY : B.cpp.s
+
+C.o: C.cpp.o
+
+.PHONY : C.o
+
+# target to build an object file
+C.cpp.o:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.o
+.PHONY : C.cpp.o
+
+C.i: C.cpp.i
+
+.PHONY : C.i
+
+# target to preprocess a source file
+C.cpp.i:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.i
+.PHONY : C.cpp.i
+
+C.s: C.cpp.s
+
+.PHONY : C.s
+
+# target to generate assembly for a file
+C.cpp.s:
+	$(MAKE) -f CMakeFiles/C.dir/build.make CMakeFiles/C.dir/C.cpp.s
+.PHONY : C.cpp.s
+
+D.o: D.cpp.o
+
+.PHONY : D.o
+
+# target to build an object file
+D.cpp.o:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/D.cpp.o
+.PHONY : D.cpp.o
+
+D.i: D.cpp.i
+
+.PHONY : D.i
+
+# target to preprocess a source file
+D.cpp.i:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/D.cpp.i
+.PHONY : D.cpp.i
+
+D.s: D.cpp.s
+
+.PHONY : D.s
+
+# target to generate assembly for a file
+D.cpp.s:
+	$(MAKE) -f CMakeFiles/D.dir/build.make CMakeFiles/D.dir/D.cpp.s
+.PHONY : D.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +319,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... A"
+	@echo "... A_1"
+	@echo "... D"
+	@echo "... C"
+	@echo "... B"
 	@echo "... A.o"
 	@echo "... A.i"
 	@echo "... A.s"
+	@echo "... A_1.o"
+	@echo "... A_1.i"
+	@echo "... A_1.s"
+	@echo "... B.o"
+	@echo "... B.i"
+	@echo "... B.s"
+	@echo "... C.o"
+	@echo "... C.i"
+	@echo "... C.s"
+	@echo "... D.o"
+	@echo "... D.i"
+	@echo "... D.s"
 .PHONY : help
 
 
