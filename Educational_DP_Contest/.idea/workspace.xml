@@ -15,38 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2842da4-91b6-4e10-a160-7b3e689d7dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ABC/125/A_1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ABC/125/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ABC/125/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ABC/125/D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/054/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/054/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ABC/125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/A.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/A.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,7 +137,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="366" />
-    <option name="y" value="694" />
+    <option name="y" value="424" />
     <option name="width" value="1680" />
     <option name="height" value="979" />
   </component>
@@ -267,7 +236,7 @@
     <option name="totallyTimeSpent" value="19315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="694" width="1680" height="979" extended-state="0" />
+    <frame x="366" y="424" width="1680" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2026862" />
