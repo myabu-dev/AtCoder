@@ -14,9 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2842da4-91b6-4e10-a160-7b3e689d7dec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ABC/125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC/125/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b2842da4-91b6-4e10-a160-7b3e689d7dec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,8 +134,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="424" />
+    <option name="x" value="958" />
+    <option name="y" value="490" />
     <option name="width" value="1680" />
     <option name="height" value="979" />
   </component>
@@ -236,7 +234,7 @@
     <option name="totallyTimeSpent" value="19315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="424" width="1680" height="979" extended-state="0" />
+    <frame x="958" y="490" width="1680" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2026862" />
