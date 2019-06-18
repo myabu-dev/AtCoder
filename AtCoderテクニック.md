@@ -2,19 +2,19 @@
 
 Int to char
 
-```
+```cpp
 (char)(1+'0') = '1'
 ```
 
 char to int
 
-```
+```cpp
 (int)('1'-0) = 1
 ```
 
 str.find
 
-```
+```cpp
 str.find("hoge"); // 先頭から検索
 str.rfind("hoge"); //末尾から検索
 str.find("hoge",0,2); // 0から後でhoを検索
@@ -25,7 +25,7 @@ substr
 
 一致する文字列を探す時
 
-```
+```cpp
 for(){
 	str.substr(i,5)== "tokyo"
 }
@@ -33,19 +33,19 @@ for(){
 
 順列反転
 
-```
+```cpp
 std::reverse(str.begin(), str.end());
 ```
 
 入れ替え
 
-```
+```cpp
 std::swap(A,B);
 ```
 
 辞書順比較
 
-```
+```cpp
 str <= str2 
 str > str2 
 ```
@@ -56,7 +56,7 @@ str > str2
 
 配列の初期値セット(-1 か 0 にしか使用できない)
 
-```
+```cpp
 memset(araay, -1, sizeof(array));
 ```
 
@@ -64,7 +64,7 @@ memset(araay, -1, sizeof(array));
 
 operatorを定義する
 
-```
+```cpp
 struct Info
 {
     std::string name;
@@ -85,7 +85,7 @@ struct Info
 
 比較関数を作成する
 
-```
+```cpp
 bool cmp(const Info &a, const Info &b)
 {
     return a.age < b.age;
@@ -94,7 +94,7 @@ bool cmp(const Info &a, const Info &b)
 
 ラムダ式を使う
 
-```
+```cpp
 std::sort(info.begin(), info.end(), [](const Info &a, const Info &b) {
 		return a.age < b.age;
 });//比較関数をラムダ式で作る
@@ -102,7 +102,11 @@ std::sort(info.begin(), info.end(), [](const Info &a, const Info &b) {
 
 vectorを一部のみソートする
 
-```
+```cpp
 sort(vec.begin(), vec.begin()+N);
+```
+
+```
+
 ```
 
