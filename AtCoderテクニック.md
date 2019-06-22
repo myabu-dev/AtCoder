@@ -106,7 +106,74 @@ vectorを一部のみソートする
 sort(vec.begin(), vec.begin()+N);
 ```
 
+
+
+memset バイト単位で値を設定する
+
+```cpp
+memset(配列名, 埋める値, sizeof(配列名));
 ```
 
+fill
+
+```cpp
+fill(配列名, 最後の要素, 埋める値);
+```
+
+
+
+priority_queue
+
+```cpp
+priority_queue<T, vector<T>, greater<T>> hoge;
+// pairの場合はfirstが比較される
+```
+
+
+
+小数点の桁数
+
+```cpp
+std::cout<<std::fixed<<std::setprecision(桁数)
+```
+
+
+
+文字列→int
+
+```cpp
+stoi(文字列)
+```
+
+数値->文字列
+
+```
+to_string(数値)
+```
+
+
+
+pairのsort
+
+```cpp
+bool compare_by_b(pair<int, int> a, pair<int, int> b) {
+    if(a.second != b.second){
+        return a.second < b.second;
+    }else{
+        return a.first < b.first;
+    }
+}
+
+sort(aaa.begin(), aaa.end(), compare_by_b);
+```
+
+
+
+mapの値確認
+
+```
+m.count(key) == 1 ある　== 0 ない
+countはmultimapなど複数値があるのには適さない
+m.find(key) != m.end() ある　== end() ない
 ```
 
