@@ -21,6 +21,11 @@ str.find("hoge",0,2); // 0から後でhoを検索
 //見つからないとき std::string::npos
 ```
 
+to_string
+```cpp
+to_string(123)
+```
+
 substr
 
 一致する文字列を探す時
@@ -175,5 +180,61 @@ mapの値確認
 m.count(key) == 1 ある　== 0 ない
 countはmultimapなど複数値があるのには適さない
 m.find(key) != m.end() ある　== end() ない
+```
+
+
+
+ダイクストラ
+
+
+
+
+
+GCD (最大公約数)
+
+```cpp
+int gcd(int a, int b) {
+    if (a%b == 0)
+        return b;
+
+    return gcd(b, a % b);
+}
+```
+
+LCM（最小公倍数）
+
+ ```cpp
+int lcm(int a, int b) {
+    return a * b / gcd(a, b);
+}
+ ```
+
+組み合わせ
+
+```cpp
+void comb(vector<vector <long long int> > &v){
+    for(int i = 0;i <v.size(); i++){
+        v[i][0]=1;
+        v[i][i]=1;
+    }
+    for(int k = 1;k <v.size();k++){
+        for(int j = 1;j<k;j++){
+            v[k][j]=(v[k-1][j-1]+v[k-1][j]);
+        }
+    }
+}
+
+int main(){
+    N=2000;
+    vector<vector<long long int> > v(N+1,vector<long long int>(N+1,0));
+    comb(v);
+  	// v[2][1] == 2C1
+}
+```
+
+ビット計算、フラグが立っているか
+
+```
+if(flag & (1 << 何番め))
 ```
 
