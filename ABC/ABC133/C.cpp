@@ -35,7 +35,6 @@ int main(void){
         }
     }
 
-
     cout<<min<<endl;
 
     return 0;

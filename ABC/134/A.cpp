@@ -1,5 +1,5 @@
 //
-// Created by yuu on 2019-07-07.
+// Created by yuu on 2019-07-22.
 //
 
 #include <iostream>
@@ -17,14 +17,11 @@ using namespace std;
 
 
 int main(void){
-    int N,A,B;
+    int r;
+    cin>>r;
 
-    cin>>N>>A>>B;
-
-    cout<<min(N*A, B)<<endl;
-
+    cout<<3*r*r<<endl;
 
 
     return 0;
 }
-
