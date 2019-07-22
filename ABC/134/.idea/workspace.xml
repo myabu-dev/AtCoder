@@ -15,17 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d86ecf-28a7-4228-a01d-5e7fa232c291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC133/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC133/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC133/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC133/A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC133/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC133/B.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC133/C.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC133/C.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC133/D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC133/D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ABC133/E.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ABC133/E.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AtCoderテクニック.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AtCoderテクニック.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -146,6 +135,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -202,16 +192,15 @@
       <option name="presentableId" value="Default" />
       <updated>1563623997594</updated>
       <workItem from="1563623998690" duration="24000" />
-      <workItem from="1563774723226" duration="111000" />
+      <workItem from="1563774723226" duration="169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135000" />
+    <option name="totallyTimeSpent" value="193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="273" y="23" width="1407" height="979" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25347987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

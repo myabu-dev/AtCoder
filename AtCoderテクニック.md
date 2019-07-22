@@ -1,6 +1,6 @@
 
 
-# AtCoderテクニック
+# AtCoder
 
 Int to char
 
@@ -287,4 +287,3 @@ for (int bit = 0; bit < (1<<n); ++bit){
 	}
 }
 ```
-
