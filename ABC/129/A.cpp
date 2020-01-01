@@ -1,7 +1,3 @@
-//
-// Created by yuu on 2019-06-09.
-//
-
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -11,20 +7,19 @@
 #include <math.h>
 #include <stack>
 #include <queue>
+#include <cstdio>
 
 using namespace std;
 
 
 int main(void){
-    int N,K;
-    cin>>N>>K;
+    int X[3];
 
-    if(K==1){
-        cout<<0<<endl;
-        return 0;
-    }
+    cin>>X[0]>>X[1]>>X[2];
 
-    cout<<(N-K)<<endl;
+    sort(X, X+3 );
+
+    cout<<X[0]+X[1]<<endl;
 
 
     return 0;
