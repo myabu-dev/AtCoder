@@ -15,26 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fabd565-e59d-42d6-9b88-405c124cf690" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../136/.idea/136.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../136/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/137.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../135/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../135/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AtCoderテクニック.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AtCoderテクニック.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Educational_DP_Contest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Educational_DP_Contest/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -126,9 +107,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="2088" />
+    <option name="y" value="263" />
+    <option name="width" value="1080" />
+    <option name="height" value="1897" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -208,19 +189,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565437926836</updated>
-      <workItem from="1565437928069" duration="3816000" />
+      <workItem from="1565437928069" duration="3923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3816000" />
+    <option name="totallyTimeSpent" value="3923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="2088" extended-state="0" />
+    <frame x="0" y="263" width="1080" height="1897" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2172524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39306358" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -230,7 +211,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296593" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36454293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
