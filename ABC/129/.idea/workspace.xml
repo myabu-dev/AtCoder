@@ -15,8 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5ff87b-97bd-44d6-8b5e-ad5314f237e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/B_old.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AtCoderテクニック.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AtCoderテクニック.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,32 +59,13 @@
   </component>
   <component name="ProjectId" id="1VnefQ43uPuRj3k56iXIn1AAgLH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="129" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -95,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.A">
+  <component name="RunManager" selected="CMake Application.B">
     <configuration name="A" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="A">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -141,7 +125,7 @@
       <workItem from="1560848764042" duration="1584000" />
       <workItem from="1560861333283" duration="7814000" />
       <workItem from="1561034610013" duration="1856000" />
-      <workItem from="1577893390132" duration="433000" />
+      <workItem from="1577893390132" duration="1983000" />
     </task>
     <servers />
   </component>
