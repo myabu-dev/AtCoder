@@ -113,7 +113,11 @@ vectorを一部のみソートする
 sort(vec.begin(), vec.begin()+N);
 ```
 
+降順ソート
 
+```
+sort(x, x+N, std::greater<int>())
+```
 
 memset バイト単位で値を設定する
 
@@ -286,5 +290,26 @@ for (int bit = 0; bit < (1<<n); ++bit){
   	}
 	}
 }
+```
+
+accumlate 範囲の集計
+
+```
+int sum = std::accumulate(v.begin(), v.end(), 0);
+
+// (1) : 合計値をlong long型として求める
+// accumulateの第3引数がlong long型のゼロを表す0LLになっていることに注意
+// accumulateの戻り値型は、第3引数の型となるため、変数sum_llの型はlong long
+auto sum_ll = std::accumulate(v.begin(), v.end(), 0LL);
+
+// (1) : 文字列のリストを連結する
+std::string concatenate = std::accumulate(v2.begin(), v2.end(), std::string());
+std::cout << "concat : " << concatenate << std::endl;
+
+// (2) : 任意の二項演算を行う
+// ここでは、初期値を1として、全ての要素を掛け合わせている
+int product = std::accumulate(v.begin(), v.end(), 1, [](int acc, int i) {
+	return acc * i;
+});
 ```
 

@@ -15,10 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5ff87b-97bd-44d6-8b5e-ad5314f237e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/B_old.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/B.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../AtCoderテクニック.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AtCoderテクニック.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../120" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -125,7 +121,7 @@
       <workItem from="1560848764042" duration="1584000" />
       <workItem from="1560861333283" duration="7814000" />
       <workItem from="1561034610013" duration="1856000" />
-      <workItem from="1577893390132" duration="1983000" />
+      <workItem from="1577893390132" duration="2214000" />
     </task>
     <servers />
   </component>
