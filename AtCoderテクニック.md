@@ -313,3 +313,40 @@ int product = std::accumulate(v.begin(), v.end(), 1, [](int acc, int i) {
 });
 ```
 
+
+
+Next_permutation　**O(N!)**
+
+```
+// next_permutationは辞書順で次のものを出すので、ソートされていないとうまくいかない
+do{
+	// 123
+	// 132
+}while(next_permutation(array, array+N))
+```
+
+Prev_permutation (降順) **O(N!)**
+
+```
+// prev_permutationは辞書順で次のものを出すので、ソートされていないとうまくいかない
+do{
+	// 321
+	// 312
+}while(prev_permutation(array, array+N))
+```
+
+
+
+Next_permutationをうまく使って、配列の組み合わせを出す
+
+```
+	char array[5] = {'a', 'c', 'b', 'r', 'e'};
+	vector<int> P = { 0, 1, 2, 3, 4 };
+	do {
+		for (int i = 0; i < 5; ++i) {
+			cout<<array[P[i]]<<" ";
+		}
+		cout<<endl;
+	} while (next_permutation(P.begin(), P.end()));
+```
+
