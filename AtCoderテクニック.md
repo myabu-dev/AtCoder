@@ -350,3 +350,22 @@ Next_permutationをうまく使って、配列の組み合わせを出す
 	} while (next_permutation(P.begin(), P.end()));
 ```
 
+
+
+Mapをソートする方法
+
+- mapのキーは自動的にソートされている、そもそもソートできないものはキーにできない
+- valueは一度別のvectorとかに構造体として突っ込んでソートする
+
+```
+for(auto itr = map.begin(); itr != map.end(); ++itr){
+	vec.pushback(itr->first, itr->second);
+}
+
+for(auto itr: map){
+	vec.pushback(itr.first, itr.second);
+}
+
+sort(vec.begin(), vec.end());
+```
+
