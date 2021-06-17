@@ -451,3 +451,205 @@ bool is_prime(int n){
 }
 ```
 
+
+
+Vector 2次元初期化
+
+```c++
+vec.assign(N, vector<type>(M, 初期値))　// vec[N][M]
+```
+
+
+
+Union-find
+
+参考書の一部カスタマイズ　struct->class
+
+```c++
+class UnionFind {
+public:
+    vector<int> par, siz; // par親頂点のインデックス根なら-1、siz各頂点の属する根付き木の頂点数
+    UnionFind(int n): par(n, -1), siz(n, 1){ }
+
+    // 根を求める
+    int root(int x){
+        if (par[x] == -1) return x;
+        else return par[x] = root(par[x]);
+    }
+
+    // xとyが同じグループに属するかどうか
+    bool issame(int x, int y){
+        return root(x) == root(y);
+    }
+
+    // xを含むグループとyを含むグループとを併合する
+    bool unite(int x, int y){
+        // それぞれの根まで移動
+        x = root(x);
+        y = root(y);
+
+        // すでに同じグループの時は何もしない
+        if(x == y) return false;
+        if(siz[x] < siz[y]) swap(x, y); // y側のサイズが小さくなるように
+
+        // yをxの子とする
+        par[y] = x;
+        siz[x] += siz[y];
+        return true;
+    }
+
+    // xを含むグループのサイズ
+    int size(int x){
+        return siz[root(x)];
+    }
+};
+```
+
+重み付きUnifon find
+
+https://qiita.com/drken/items/cce6fc5c579051e64fab
+
+```c++
+template<class Abel> struct WeightedUnionFind {
+    vector<int> par;
+    vector<int> rank;
+    vector<Abel> diff_weight;
+
+    WeightedUnionFind(int n = 1, Abel SUM_UNITY = 0) {
+        init(n, SUM_UNITY);
+    }
+
+    void init(int n = 1, Abel SUM_UNITY = 0) {
+        par.resize(n); rank.resize(n); diff_weight.resize(n);
+        for (int i = 0; i < n; ++i) par[i] = i, rank[i] = 0, diff_weight[i] = SUM_UNITY;
+    }
+
+    int root(int x) {
+        if (par[x] == x) {
+            return x;
+        }
+        else {
+            int r = root(par[x]);
+            diff_weight[x] += diff_weight[par[x]];
+            return par[x] = r;
+        }
+    }
+
+    Abel weight(int x) {
+        root(x);
+        return diff_weight[x];
+    }
+
+    bool issame(int x, int y) {
+        return root(x) == root(y);
+    }
+
+    bool unite(int x, int y, Abel w) {
+        w += weight(x); w -= weight(y);
+        x = root(x); y = root(y);
+        if (x == y) return false;
+        if (rank[x] < rank[y]) swap(x, y), w = -w;
+        if (rank[x] == rank[y]) ++rank[x];
+        par[y] = x;
+        diff_weight[y] = w;
+        return true;
+    }
+
+    Abel diff(int x, int y) {
+        return weight(y) - weight(x);
+    }
+};
+```
+
+
+
+DFS
+
+```c++
+using Graph = vector<vector<int>>;
+vector<int> seen; // -1なら未探索、それ以外なら探索済み
+void dfs(const Graph &G, int v){
+    seen[v] = 1;
+    for(int next_v : G[v]){
+        if(seen[next_v] != -1) continue;
+        dfs(G, next_v)
+    }
+}
+
+for (int i = 0; i < M; ++i) {
+  int a, b;
+  cin>>a>>b;
+  G[a].push_back(b);
+  G[b].push_back(a);
+}
+seen.assign(N, -1);
+for (int i = 0; i < N; ++i) {
+  if(seen[i] != -1)continue;
+  dfs(G, i);
+}
+```
+
+
+
+BFS
+
+```c++
+// 入力: グラフGと始点s
+// 出力: sから各頂点への最短経路長を表す配列
+vector<int> BFS(const Graph &G, int s){
+    int N = (int)G.size();
+    vector<int> dist(N, -1);
+    queue<int> que;
+
+    dist[s] = 0;
+    que.push(s);
+
+    while(!que.empty()){
+        int v = que.front();
+        que.pop();
+
+        for(int next_v: G[v]){
+            if(dist[next_v] != -1)continue;
+            dist[next_v] = dist[v] + 1;
+            que.push(next_v);
+        }
+    }
+    return dist;
+}
+
+Graph G(N);
+for (int i = 0; i < M; ++i) {
+  int a, b;
+  cin>>a>>b;
+  G[a].push_back(b);
+}
+    
+vector<int>dest = BFS(G, s);
+```
+
+トポロジカルソート
+
+```c++
+using Graph = vector<vector<int>>;
+vector<int> seen; // -1なら未探索、それ以外なら探索済み
+vector<int> order; // トポロジカルソート順
+
+void DFS(const Graph &G, int v){
+    seen[v] = 1;
+    for(int next_v : G[v]){
+        if(seen[next_v] != -1) continue;
+        DFS(G, next_v);
+    }
+    order.push_back(v);
+}
+
+// Graph G(N)
+// seen.assign(N, -1);
+// for (int i = 0; i < N; ++i) {
+//     if(seen[i] != -1)continue;
+//     DFS(G, i);
+// }
+// reverse(order.begin(), order.end());
+// bool isDAG = order.size() == N; //DAGであるかどうか
+```
+
